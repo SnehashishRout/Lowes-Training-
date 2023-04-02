@@ -1,0 +1,37 @@
+.btn-primary{
+    padding: 6%
+  }
+
+  body{
+      background-color: #eee;
+  }
+  
+  .otp-col{
+    margin: 5% 5%;
+    margin-left: 25%;
+    margin-bottom: 2%;
+    height: 5%;
+  }
+  
+  .gradient-custom-2 {
+      /* fallback for old browsers */
+      background: #fccb90;
+    
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: -webkit-linear-gradient(to right, #6a1b9a, #7b1fa2, #8e24aa, #ab47bc, #ba68c8, #ce93d8);
+    
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      background: linear-gradient(to right, #6a1b9a, #7b1fa2, #8e24aa, #ab47bc,#ba68c8, #ce93d8 );
+    }
+    
+    @media (min-width: 768px) {
+      .gradient-form {
+        height: 100vh !important;
+      }
+    }
+    @media (min-width: 769px) {
+      .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+      }
+    }
